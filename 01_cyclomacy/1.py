@@ -44,8 +44,12 @@ class Database_clean:
                 break
 
         if self.is_established(connection):
+            print("Connected with the database successfully.")
             self.print_from_db(connection)
             connection.close()
+            return
+        
+        print("Connection with the database was Unsucessful!")
 
     def establish_connection(self):
         connection = None
