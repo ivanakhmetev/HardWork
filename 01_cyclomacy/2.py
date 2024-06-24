@@ -112,7 +112,6 @@ if __name__ == '__main__':
     while count < num_repeat:
 
         print('Attempt #' + str(count+1))
-        driver = None
         print('> Finding proxy..')
         proxy = generate_proxy(proxy_gen, ip_map)
         print(f'> {proxy}')
