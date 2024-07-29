@@ -1,1 +1,2 @@
 smth
+[design](design.md)
