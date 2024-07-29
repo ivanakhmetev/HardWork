@@ -1,2 +1,2 @@
 smth
-[design](design.md)
+![design](design.md)
